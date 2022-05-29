@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BED18F92842254E00966943 /* NewShoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED18F82842254E00966943 /* NewShoesViewController.swift */; };
+		5BED5300284204A40002DFAF /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED52FF284204A40002DFAF /* AdminViewController.swift */; };
+		5BED5302284211EE0002DFAF /* AdminShoesTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED5301284211EE0002DFAF /* AdminShoesTableTableViewCell.swift */; };
+		5BEE44FA2841BB85004F7E15 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE44F92841BB85004F7E15 /* LoginViewController.swift */; };
+		5BF0684628406BCC000BC926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0684528406BCC000BC926 /* AppDelegate.swift */; };
+		5BF0684828406BCC000BC926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0684728406BCC000BC926 /* ViewController.swift */; };
+		5BF0684B28406BCC000BC926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0684928406BCC000BC926 /* Main.storyboard */; };
+		5BF0684D28406BCE000BC926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0684C28406BCE000BC926 /* Assets.xcassets */; };
+		5BF0685028406BCE000BC926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0684E28406BCE000BC926 /* LaunchScreen.storyboard */; };
+		5BF0685928406C4A000BC926 /* KidShoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0685828406C4A000BC926 /* KidShoesViewController.swift */; };
+		5BF0685C28407067000BC926 /* KidShoesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0685B28407067000BC926 /* KidShoesTableViewCell.swift */; };
+		5BF0685F284074BA000BC926 /* KidShoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0685E284074BA000BC926 /* KidShoes.swift */; };
+		5BF068612840827B000BC926 /* KidShoesCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF068602840827B000BC926 /* KidShoesCartViewController.swift */; };
+		5BF0686428408398000BC926 /* KidShoesCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0686328408398000BC926 /* KidShoesCartTableViewCell.swift */; };
+		5BF4EFED2843164A0066C083 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4EFEC2843164A0066C083 /* Account.swift */; };
+		5BF4EFEF28431E060066C083 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4EFEE28431E060066C083 /* RegisterViewController.swift */; };
+		5BF805D82840B91100D9219E /* MenShoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF805D72840B91100D9219E /* MenShoesViewController.swift */; };
+		5BF805DA2840BBAD00D9219E /* MenShoesCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF805D92840BBAD00D9219E /* MenShoesCartViewController.swift */; };
+		5BF805DC2840BBC400D9219E /* MenShoesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF805DB2840BBC400D9219E /* MenShoesTableViewCell.swift */; };
+		5BF805DE2840BBD200D9219E /* MenShoesCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF805DD2840BBD200D9219E /* MenShoesCartTableViewCell.swift */; };
+		5BF805E02840BCD700D9219E /* MenShoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF805DF2840BCD700D9219E /* MenShoes.swift */; };
+		5BF805E22840C83D00D9219E /* WomanShoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF805E12840C83D00D9219E /* WomanShoesViewController.swift */; };
+		5BF805E42840C88A00D9219E /* WomanShoesCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF805E32840C88A00D9219E /* WomanShoesCartViewController.swift */; };
+		5BF805E62840C8BD00D9219E /* WomanShoesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF805E52840C8BD00D9219E /* WomanShoesTableViewCell.swift */; };
+		5BF805E82840C8D200D9219E /* WomanShoesCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF805E72840C8D200D9219E /* WomanShoesCartTableViewCell.swift */; };
+		5BF805EA2840CA1F00D9219E /* Woman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF805E92840CA1F00D9219E /* Woman.swift */; };
+		5BF805EC2840D5C500D9219E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF805EB2840D5C400D9219E /* HomePageViewController.swift */; };
+		5BF9518A28424C4100090542 /* Shoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9518928424C4100090542 /* Shoes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BED18F82842254E00966943 /* NewShoesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewShoesViewController.swift; sourceTree = "<group>"; };
+		5BED52FF284204A40002DFAF /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		5BED5301284211EE0002DFAF /* AdminShoesTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminShoesTableTableViewCell.swift; sourceTree = "<group>"; };
+		5BEE44F92841BB85004F7E15 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5BF0684228406BCC000BC926 /* ShoesSellingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoesSellingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF0684528406BCC000BC926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BF0684728406BCC000BC926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BF0684A28406BCC000BC926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BF0684C28406BCE000BC926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BF0684F28406BCE000BC926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BF0685128406BCE000BC926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF0685828406C4A000BC926 /* KidShoesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidShoesViewController.swift; sourceTree = "<group>"; };
+		5BF0685B28407067000BC926 /* KidShoesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidShoesTableViewCell.swift; sourceTree = "<group>"; };
+		5BF0685E284074BA000BC926 /* KidShoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidShoes.swift; sourceTree = "<group>"; };
+		5BF068602840827B000BC926 /* KidShoesCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidShoesCartViewController.swift; sourceTree = "<group>"; };
+		5BF0686328408398000BC926 /* KidShoesCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidShoesCartTableViewCell.swift; sourceTree = "<group>"; };
+		5BF4EFEC2843164A0066C083 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		5BF4EFEE28431E060066C083 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5BF805D72840B91100D9219E /* MenShoesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenShoesViewController.swift; sourceTree = "<group>"; };
+		5BF805D92840BBAD00D9219E /* MenShoesCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenShoesCartViewController.swift; sourceTree = "<group>"; };
+		5BF805DB2840BBC400D9219E /* MenShoesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenShoesTableViewCell.swift; sourceTree = "<group>"; };
+		5BF805DD2840BBD200D9219E /* MenShoesCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenShoesCartTableViewCell.swift; sourceTree = "<group>"; };
+		5BF805DF2840BCD700D9219E /* MenShoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenShoes.swift; sourceTree = "<group>"; };
+		5BF805E12840C83D00D9219E /* WomanShoesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomanShoesViewController.swift; sourceTree = "<group>"; };
+		5BF805E32840C88A00D9219E /* WomanShoesCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomanShoesCartViewController.swift; sourceTree = "<group>"; };
+		5BF805E52840C8BD00D9219E /* WomanShoesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomanShoesTableViewCell.swift; sourceTree = "<group>"; };
+		5BF805E72840C8D200D9219E /* WomanShoesCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomanShoesCartTableViewCell.swift; sourceTree = "<group>"; };
+		5BF805E92840CA1F00D9219E /* Woman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woman.swift; sourceTree = "<group>"; };
+		5BF805EB2840D5C400D9219E /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		5BF9518928424C4100090542 /* Shoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BF0683F28406BCC000BC926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BF0683928406BCC000BC926 = {
+			isa = PBXGroup;
+			children = (
+				5BF0684428406BCC000BC926 /* ShoesSellingApp */,
+				5BF0684328406BCC000BC926 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BF0684328406BCC000BC926 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0684228406BCC000BC926 /* ShoesSellingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BF0684428406BCC000BC926 /* ShoesSellingApp */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0684528406BCC000BC926 /* AppDelegate.swift */,
+				5BF0684928406BCC000BC926 /* Main.storyboard */,
+				5BF0685728406C19000BC926 /* ViewController */,
+				5BF0685A28407031000BC926 /* TableViewCell */,
+				5BF0685D28407472000BC926 /* Object */,
+				5BF0684C28406BCE000BC926 /* Assets.xcassets */,
+				5BF0684E28406BCE000BC926 /* LaunchScreen.storyboard */,
+				5BF0685128406BCE000BC926 /* Info.plist */,
+				5BEE44F92841BB85004F7E15 /* LoginViewController.swift */,
+				5BED18F82842254E00966943 /* NewShoesViewController.swift */,
+				5BF4EFEE28431E060066C083 /* RegisterViewController.swift */,
+			);
+			path = ShoesSellingApp;
+			sourceTree = "<group>";
+		};
+		5BF0685728406C19000BC926 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5BED52FF284204A40002DFAF /* AdminViewController.swift */,
+				5BF0684728406BCC000BC926 /* ViewController.swift */,
+				5BF805EB2840D5C400D9219E /* HomePageViewController.swift */,
+				5BF0685828406C4A000BC926 /* KidShoesViewController.swift */,
+				5BF805D72840B91100D9219E /* MenShoesViewController.swift */,
+				5BF805E12840C83D00D9219E /* WomanShoesViewController.swift */,
+				5BF06862284082F5000BC926 /* CartViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5BF0685A28407031000BC926 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0685B28407067000BC926 /* KidShoesTableViewCell.swift */,
+				5BF0686328408398000BC926 /* KidShoesCartTableViewCell.swift */,
+				5BF805DB2840BBC400D9219E /* MenShoesTableViewCell.swift */,
+				5BF805DD2840BBD200D9219E /* MenShoesCartTableViewCell.swift */,
+				5BF805E52840C8BD00D9219E /* WomanShoesTableViewCell.swift */,
+				5BF805E72840C8D200D9219E /* WomanShoesCartTableViewCell.swift */,
+				5BED5301284211EE0002DFAF /* AdminShoesTableTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		5BF0685D28407472000BC926 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0685E284074BA000BC926 /* KidShoes.swift */,
+				5BF805DF2840BCD700D9219E /* MenShoes.swift */,
+				5BF805E92840CA1F00D9219E /* Woman.swift */,
+				5BF9518928424C4100090542 /* Shoes.swift */,
+				5BF4EFEC2843164A0066C083 /* Account.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		5BF06862284082F5000BC926 /* CartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5BF068602840827B000BC926 /* KidShoesCartViewController.swift */,
+				5BF805D92840BBAD00D9219E /* MenShoesCartViewController.swift */,
+				5BF805E32840C88A00D9219E /* WomanShoesCartViewController.swift */,
+			);
+			path = CartViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BF0684128406BCC000BC926 /* ShoesSellingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF0685428406BCE000BC926 /* Build configuration list for PBXNativeTarget "ShoesSellingApp" */;
+			buildPhases = (
+				5BF0683E28406BCC000BC926 /* Sources */,
+				5BF0683F28406BCC000BC926 /* Frameworks */,
+				5BF0684028406BCC000BC926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoesSellingApp;
+			productName = ShoesSellingApp;
+			productReference = 5BF0684228406BCC000BC926 /* ShoesSellingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BF0683A28406BCC000BC926 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Nhom4;
+				TargetAttributes = {
+					5BF0684128406BCC000BC926 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 5BF0683D28406BCC000BC926 /* Build configuration list for PBXProject "ShoesSellingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BF0683928406BCC000BC926;
+			productRefGroup = 5BF0684328406BCC000BC926 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BF0684128406BCC000BC926 /* ShoesSellingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BF0684028406BCC000BC926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF0685028406BCE000BC926 /* LaunchScreen.storyboard in Resources */,
+				5BF0684D28406BCE000BC926 /* Assets.xcassets in Resources */,
+				5BF0684B28406BCC000BC926 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BF0683E28406BCC000BC926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF805D82840B91100D9219E /* MenShoesViewController.swift in Sources */,
+				5BF0685928406C4A000BC926 /* KidShoesViewController.swift in Sources */,
+				5BED18F92842254E00966943 /* NewShoesViewController.swift in Sources */,
+				5BF805EC2840D5C500D9219E /* HomePageViewController.swift in Sources */,
+				5BF0684828406BCC000BC926 /* ViewController.swift in Sources */,
+				5BF4EFED2843164A0066C083 /* Account.swift in Sources */,
+				5BEE44FA2841BB85004F7E15 /* LoginViewController.swift in Sources */,
+				5BF0684628406BCC000BC926 /* AppDelegate.swift in Sources */,
+				5BF0685C28407067000BC926 /* KidShoesTableViewCell.swift in Sources */,
+				5BF805DE2840BBD200D9219E /* MenShoesCartTableViewCell.swift in Sources */,
+				5BED5300284204A40002DFAF /* AdminViewController.swift in Sources */,
+				5BF805E62840C8BD00D9219E /* WomanShoesTableViewCell.swift in Sources */,
+				5BF9518A28424C4100090542 /* Shoes.swift in Sources */,
+				5BF805EA2840CA1F00D9219E /* Woman.swift in Sources */,
+				5BF805E82840C8D200D9219E /* WomanShoesCartTableViewCell.swift in Sources */,
+				5BF068612840827B000BC926 /* KidShoesCartViewController.swift in Sources */,
+				5BF4EFEF28431E060066C083 /* RegisterViewController.swift in Sources */,
+				5BF805E22840C83D00D9219E /* WomanShoesViewController.swift in Sources */,
+				5BF805E42840C88A00D9219E /* WomanShoesCartViewController.swift in Sources */,
+				5BF0686428408398000BC926 /* KidShoesCartTableViewCell.swift in Sources */,
+				5BED5302284211EE0002DFAF /* AdminShoesTableTableViewCell.swift in Sources */,
+				5BF805DC2840BBC400D9219E /* MenShoesTableViewCell.swift in Sources */,
+				5BF0685F284074BA000BC926 /* KidShoes.swift in Sources */,
+				5BF805DA2840BBAD00D9219E /* MenShoesCartViewController.swift in Sources */,
+				5BF805E02840BCD700D9219E /* MenShoes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BF0684928406BCC000BC926 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF0684A28406BCC000BC926 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BF0684E28406BCE000BC926 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF0684F28406BCE000BC926 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BF0685228406BCE000BC926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BF0685328406BCE000BC926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BF0685528406BCE000BC926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShoesSellingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nhom4.ShoesSellingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BF0685628406BCE000BC926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShoesSellingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nhom4.ShoesSellingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BF0683D28406BCC000BC926 /* Build configuration list for PBXProject "ShoesSellingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF0685228406BCE000BC926 /* Debug */,
+				5BF0685328406BCE000BC926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF0685428406BCE000BC926 /* Build configuration list for PBXNativeTarget "ShoesSellingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF0685528406BCE000BC926 /* Debug */,
+				5BF0685628406BCE000BC926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BF0683A28406BCC000BC926 /* Project object */;
+}
